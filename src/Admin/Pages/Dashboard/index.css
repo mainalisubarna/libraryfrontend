@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Default styles for all screen sizes */
+.bg-white {
+    /* Your default styles here */
+  }
+  
+  /* Media query for medium-sized screens (e.g., tablets) */
+  @media screen and (min-width: 768px) {
+    .bg-white {
+      /* Styles for medium-sized screens here */
+      /* For example, change the flex direction to row */
+      flex-direction: row;
+    }
+  
+    .w-full {
+      /* Styles for medium-sized screens here */
+      /* For example, set width to 100% */
+      width: 100%;
+    }
+  
+    /* Add more styles for other elements as needed */
+  }
+  
+  /* Media query for large screens (e.g., desktops) */
+  @media screen and (min-width: 1024px) {
+    .bg-white {
+      /* Styles for large screens here */
+      /* For example, change the gap between elements */
+      gap: 24px;
+    }
+  
+    /* Add more styles for other elements as needed */
+  }
+  
+  /* Media query for small screens (e.g., mobile devices) */
+  
